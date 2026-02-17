@@ -19,3 +19,7 @@ This is a **string manipulation + reversal** problem.
 4. Return the final combined string
 
 So the model to remember is: **Original → Mirror → Glue together**
+
+| JAVASCRIPT | PYTHON |
+| ---| ---|
+|strings don’t reverse directly, so we’ll have to: <ul><li>convert the string to an array of characters</li><li>reverse the array</li><li>convert it back into a string</li></ul> | Python has **slice notation** `s[::-1]` to reverse the string. What this means: <ul><li>Start at the end</li><li>Move backward</li><li>Take every character</li></ul>|
