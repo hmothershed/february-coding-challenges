@@ -1,4 +1,4 @@
-## February 1st: **Digital Detox**
+# February 1st: **Digital Detox**
 
 Given an array of your login logs, determine whether you have met your digital detox goal.
 
