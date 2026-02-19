@@ -10,7 +10,7 @@ function getHillRating(drop, distance, type) {
   else if (type === "Slalom") {
     adjusted *= 0.9;
   }
-  // "Giant Slalom has no change since multiplier is 1.0"
+  // "Giant Slalom" has no change since multiplier is 1.0
 
   if (adjusted <= 0.1) {
     return "Green";
