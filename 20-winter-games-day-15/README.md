@@ -3,28 +3,10 @@ Given a trick name consisting of two words, determine if it is a valid freestyle
 A trick is valid if the first word is in the list of valid first words, and the second word is in the list of valid second words.
 
 - The two words will be separated by a single space.
-
-Valid first words:
-
-- `"Misty"`
-- `"Ghost"`
-- `"Thunder"`
-- `"Solar"`
-- `"Sky"`
-- `"Phantom"`
-- `"Frozen"`
-- `"Polar"`
-
-Valid second words:
-
-- `"Twister"`
-- `"Icequake"`
-- `"Avalanche"`
-- `"Vortex"`
-- `"Snowstorm"`
-- `"Frostbite"`
-- `"Blizzard"`
-- `"Shadow"`
+  
+| VALID FIRST WORDS | VALID SECOND WORDS |
+| ---| ---|
+| <ul><li>"Misty"</li><li>"Ghost"</li><li>"Thunder"</li><li>"Solar"</li><li>"Sky"</li><li>"Phantom"</li><li>"Frozen"</li><li>"Polar"</li></ul> | <ul><li>"Twister"</li><li>"Icequake"</li><li>"Avalanche"</li><li>"Vortex"</li><li>"Snowstorm"</li><li>"Frostbite"</li><li>"Blizzard"</li><li>"Shadow"</li></ul> |
 
 ### *example tests:*
 
