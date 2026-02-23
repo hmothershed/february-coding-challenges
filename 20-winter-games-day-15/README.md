@@ -1,3 +1,4 @@
+# February 20th: **2026 Winter Games (Day 15: Freestyle Skiing)**
 Given a trick name consisting of two words, determine if it is a valid freestyle skiing trick name.
 
 A trick is valid if the first word is in the list of valid first words, and the second word is in the list of valid second words.
