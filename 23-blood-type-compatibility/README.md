@@ -37,3 +37,35 @@ Both letter and Rh rule must pass for a donor to be able to donate to the recipi
 10. `canDonate("AB+", "AB-")` should return `false`.
 
 ## STEP-BY-STEP PROCESS
+### Step 1: Parse the Blood Type
+
+each input looks like this:
+
+```
+"AB+" --> letter = "AB", rh = "+"
+"O-" ---> letter = "O", rh = "-"
+```
+
+so the goal is to separate the blood type from the rh factor but keep in mind that the blood type AB+/- has a length of 3 characters while the others only have 2
+
+### Step 2: Encode the Rules
+
+**Letter Compatibility**
+
+```
+O  -> can donate to: A, B, AB, O
+A  -> A, AB
+B  -> B, AB
+AB -> AB
+```
+
+**Rh Compatibility**
+
+```
+- -> can donate to -, +
++ -> can donate to +
+```
+
+### Step 3: Combine the Checks
+
+return (letter valid) AND (rh valid)
