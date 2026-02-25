@@ -15,3 +15,12 @@ For example, given `[1, 2, 4, 7]`, return `[1, 2, 3, 0]`.
 5. `findDifferences([1, 2, 5, 12, 34, -15, -1, 41, 113, -222, -99, -40, 10, -18, -6, -2, -1])` should return `[1, 3, 7, 22, -49, 14, 42, 72, -335, 123, 59, 50, -28, 12, 4, 1, 0]`.
 
 ## STEP-BY-STEP PROCESS
+#### Step 1: Create result array
+
+#### Step 2: Loop through the indices
+
+#### Step 3: Check if last element
+
+- Last element has no next so return 0. Otherwise, subtract the next from the current and push/append the result to the array
+
+#### Step 4: Return result array
