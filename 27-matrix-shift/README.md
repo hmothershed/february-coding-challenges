@@ -39,3 +39,17 @@ with a shift of `1`, move all the numbers to the right one:
 6. `shift_matrix([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]], -54)` should return `[[7, 8, 9, 10], [11, 12, 13, 14], [15, 16, 1, 2], [3, 4, 5, 6]]` .
 
 ## STEP-BY-STEP PROCESS
+#### Step 1: Treat the matrix as one continuous array
+
+#### Step 2: Apply the shift
+
+- Right shift → move elements to the end → wrap to front
+- Left shift → move elements to the front → wrap to end
+
+#### Step 3: Normalize the shift
+
+- critical to avoid unnecessary work
+
+#### Step 4: Rebuild the Matrix
+
+- Put the values back into original row/column shape
